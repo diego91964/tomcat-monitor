@@ -4,11 +4,11 @@
 
 === Install InfluxDB 0.8.8
 
-# for 64-bit systems
+==== for 64-bit systems
  wget https://s3.amazonaws.com/influxdb/influxdb_0.8.8_amd64.deb
  sudo dpkg -i influxdb_0.8.8_amd64.deb
 
-# for 32-bit systems
+==== for 32-bit systems
  wget https://s3.amazonaws.com/influxdb/influxdb_0.8.8_i686.deb
  sudo dpkg -i influxdb_0.8.8_i686.deb
 
