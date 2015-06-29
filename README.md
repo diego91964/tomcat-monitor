@@ -2,7 +2,7 @@
 
 # Usage 
 
-<pre>
+
 
 <Valve className="br.uaijug.tomcat.monitoring.valve.VmDynamicValve" 
             url="http://localhost"
@@ -13,9 +13,7 @@
               valveRate="random_request"
               debug="false" />
 
-<pre/>
 
-<pre>
 
 <Valve className="br.uaijug.tomcat.monitoring.valve.VmValve" 
             url="http://localhost"
@@ -26,9 +24,7 @@
               valveRate="request"
               debug="false" />
 
-<pre/>
 
-<pre>
 
 <Valve className="br.uaijug.tomcat.monitoring.valve.OsValve" 
             url="http://localhost"
@@ -39,9 +35,7 @@
               valveRate="request"
               debug="true" />
 
-<pre/>
 
-<pre>
   <Valve className="br.uaijug.tomcat.monitoring.valve.DataSourceValve" 
             url="http://localhost"
             port="8086" 
@@ -53,4 +47,3 @@
           context = "/"
           debug="false"/>
 
-<pre/>
