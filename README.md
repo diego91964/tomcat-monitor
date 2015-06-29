@@ -2,8 +2,6 @@
 
 # Usage 
 
-
-
 <Valve className="br.uaijug.tomcat.monitoring.valve.VmDynamicValve" 
             url="http://localhost"
             port="8086" 
