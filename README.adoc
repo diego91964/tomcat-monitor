@@ -1,6 +1,19 @@
-# tomcat-monitor
+= tomcat-monitor
 
-# Usage 
+== Installation
+
+=== Install InfluxDB 0.8.8
+
+=== Install Grafana
+
+=== Download Tomcat 
+
+
+== Usage 
+
+=== Libraries
+
+=== Server.xml configuration
 
 <Valve className="br.uaijug.tomcat.monitoring.valve.VmDynamicValve" 
             url="http://localhost"
