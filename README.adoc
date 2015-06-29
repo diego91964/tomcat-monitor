@@ -15,7 +15,7 @@
 
 === Server.xml configuration
 
-<Valve className="br.uaijug.tomcat.monitoring.valve.VmDynamicValve" 
+  <Valve className="br.uaijug.tomcat.monitoring.valve.VmDynamicValve" 
             url="http://localhost"
             port="8086" 
             username="root"
@@ -26,7 +26,7 @@
 
 
 
-<Valve className="br.uaijug.tomcat.monitoring.valve.VmValve" 
+  <Valve className="br.uaijug.tomcat.monitoring.valve.VmValve" 
             url="http://localhost"
             port="8086" 
             username="root"
@@ -36,8 +36,7 @@
               debug="false" />
 
 
-
-<Valve className="br.uaijug.tomcat.monitoring.valve.OsValve" 
+  <Valve className="br.uaijug.tomcat.monitoring.valve.OsValve" 
             url="http://localhost"
             port="8086" 
             username="root"
